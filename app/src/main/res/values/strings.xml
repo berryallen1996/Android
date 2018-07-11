@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">ARC_Project</string>
+    <string name="drawer_open">Slider Menu Opened</string>
+    <string name="drawer_close">Slider Menu Closed</string>
+    <string name="logout">Logout</string>
+    <string name="visitseller">VisitSeller</string>
+    <string name="MyStores">Stores</string>
+    <string name="action_search">Search</string>
+    <string name="action_cart">actioncart</string>
+</resources>
