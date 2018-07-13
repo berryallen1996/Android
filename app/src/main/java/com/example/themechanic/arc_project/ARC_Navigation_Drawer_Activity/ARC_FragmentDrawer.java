@@ -43,6 +43,8 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 import android.widget.Toast;
+
+import com.example.themechanic.arc_project.ARC_Login_Activity;
 import com.example.themechanic.arc_project.R;
 
 import org.json.JSONArray;
@@ -58,7 +60,7 @@ public class ARC_FragmentDrawer extends Fragment
 
     View header;
     LinearLayout cmpspages;
-
+    RelativeLayout logoutsection;
     String theme="";
     int accessresult;
     public ARC_FragmentDrawer()
@@ -79,6 +81,25 @@ public class ARC_FragmentDrawer extends Fragment
     {
         View layout = null;
         layout = inflater.inflate(R.layout.fragment_navigation_drawer, container, false);
+
+        logoutsection=(RelativeLayout)layout.findViewById(R.id.logoutsection);
+
+
+
+
+        /*************************************Drawer Clicks**********************************************/
+        logoutsection.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view)
+            {
+                Intent login = new Intent(getActivity(), ARC_Login_Activity.class);
+                startActivity(login);
+            }
+        });
+
+        /*************************************Drawer Clicks**********************************************/
+
+
         return layout;
     }
     public void setUp(int fragmentId, DrawerLayout drawerLayout, final Toolbar toolbar)

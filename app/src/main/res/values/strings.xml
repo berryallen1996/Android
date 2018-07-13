@@ -7,4 +7,9 @@
     <string name="MyStores">Stores</string>
     <string name="action_search">Search</string>
     <string name="action_cart">actioncart</string>
+    <string name="login">login</string>
+    <string name="firstname">First Name</string>
+    <string name="lastname">Last Name</string>
+    <string name="confirmpassword">Confirm Password</string>
+    <string name="mobilenumber">Mobile Number</string>
 </resources>

@@ -25,6 +25,7 @@ public class ARC_MainActivity extends Activity
             {
                 Intent in = new Intent(ARC_MainActivity.this,ARC_HomePage.class);
                 startActivity(in);
+                finish();
             }
         }, 2000);
 

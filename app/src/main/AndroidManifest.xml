@@ -15,7 +15,9 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".ARC_HomePage"></activity>
+        <activity android:name=".ARC_HomePage" />
+        <activity android:name=".ARC_Login_Activity" />
+        <activity android:name=".ARC_Navigation_Drawer_Activity.ARC_Registration_Activity"></activity>
     </application>
 
 </manifest>

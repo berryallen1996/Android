@@ -164,7 +164,7 @@
     <item name="darkorange" type="color">#FFFF8800</item>
     <item name="darkred" type="color">#ff555555</item>
     <item name="categorybackground" type="color">#fa7310</item>
-    <color name="AppTheme">#cb202d</color>
+    <color name="AppTheme">#FF99CC00</color>
     <color name="status_bar_color">#000</color>
     <color name="secondory_color">#000</color>
     <color name="ButtonColor">#da4855</color>
